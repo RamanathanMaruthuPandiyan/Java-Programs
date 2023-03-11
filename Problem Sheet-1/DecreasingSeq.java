@@ -21,6 +21,7 @@ public class DecreasingSeq {
         else{
             System.out.println("Non-Decreasing");
         }
+        s.close();
     }
 
 }
