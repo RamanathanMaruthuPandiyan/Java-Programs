@@ -15,6 +15,7 @@ class Stock extends Asset{
         interest_rate=ir;
         share_price=sp;
     }
+    @Override
     void displayDetails(){
         System.out.println("Stock Class:");
         System.out.println("Descriptor: "+descriptor);
@@ -33,6 +34,7 @@ class Bond extends Asset{
         cur_value=cv;
         interest_rate=ir;
     }
+    @Override
     void displayDetails(){
         System.out.println("Bond Class:");
         System.out.println("Descriptor: "+descriptor);
@@ -50,6 +52,7 @@ class Savings extends Asset{
         cur_value=cv;
         interest_rate=ir;
     }
+    @Override
     void displayDetails(){
         System.out.println("Savings Class:");
         System.out.println("Descriptor: "+descriptor);
