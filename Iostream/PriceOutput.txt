@@ -1,0 +1,4 @@
+﻿Ramanathan ,you drove 135.0 miles using 7.130281690140845 gallons with an mpg of 18.933333333333334 
+Frank ,you drove 521.0 miles using 18.25581395348837 gallons with an mpg of 28.538853503184715 
+Ruth ,you drove 75.0 miles using 6.098666666666667 gallons with an mpg of 12.29777000437254 
+Gail ,you drove 311.0 miles using 10.0 gallons with an mpg of 31.1 
