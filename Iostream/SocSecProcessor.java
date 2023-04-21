@@ -3,7 +3,6 @@ class SocSecException extends RuntimeException {
     public SocSecException(String Message){
         super(Message);
     }
-
 }
 public class SocSecProcessor {
     public static boolean isInteger( String input )
@@ -25,7 +24,7 @@ public class SocSecProcessor {
 		
 		String[] splited = ssn.split("-");
 		
-		if(splited[0].length() != 3 | splited[1].length() != 2| splited[2].length() != 4){
+		if(splited[0].length() != 3 | splited[1].length() != 2 | splited[2].length() != 4){
 			throw new SocSecException("Invalid the social security number, dashes at wrong positions");
 		}
 		
