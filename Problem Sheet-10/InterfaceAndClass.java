@@ -16,7 +16,7 @@ class Students{
         Roll_No=s.nextInt();
         System.out.print("Enter the marks of the first and second subject respectively out of 100: ");
         Marks_1=s.nextInt();
-        Marks_2=s.nextInt();
+        Marks_2=s.nextInt(); 
     }
     void show(){
         System.out.println("Student Name: "+Name);

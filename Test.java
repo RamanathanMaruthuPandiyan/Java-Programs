@@ -1,22 +1,32 @@
+import java.util.Scanner;
+
 public class Test
  {
- 	
-
  	public static void main( String args[] )
  	{
-		String A="geeksforgeeks";
-		String B="geeksquiz";
-		int [] arr1=new int[26];
-		int [] arr2=new int[26];
-		for(char x:A.toCharArray()){
-			arr1[x -'a']++;
+		Scanner s=new Scanner(System.in);
+		String Choice;
+		int A,B,Big=0;
+		while(true){
+			System.out.println("Enter Any Two Number: ");
+			A=s.nextInt();
+			B=s.nextInt();
+			if(A==B){
+				System.out.println("Numbers are equal.");
+			}
+			else{
+				if(A>B){
+					Big=A;
+				}else{
+					Big=B;
+				}
+				System.out.println("Biggest Number is: "+Big);
+			}
+			System.out.println("Do you want to continue(Y/N): ");
+			Choice=s.next();
+			if(Choice.equals("N") || Choice.equals("n")){
+				break;
+			}
 		}
-		for(char x:B.toCharArray()){
-			arr2[x-'a']++;
-		}
-		for(int i:arr1){
-			System.out.println(i);
-		}
-		
  	}
  }
